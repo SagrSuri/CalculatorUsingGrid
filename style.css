@@ -15,6 +15,15 @@ body{
     gap: 10px;
     flex-direction: column;
 }
+img{
+    background: white;
+    border-radius: 5px;
+    padding: 2px;
+    transition: 0.5s;
+}
+img:hover{
+    transform: scale(1.1);
+}
 .container{  
     display: flex;
     justify-content: center;
